@@ -72,11 +72,17 @@ The project requires the Haar Cascade XML file for face detection. You can downl
 
 Place the `haarcascade_frontalface_default.xml` file in the project directory.
 
-### 5. Train the model (if not already trained)
+### 5. Download the Dataset
+
+You can download the dataset for training the model from the following link:
+
+- [Face Mask Detection Dataset (Google Drive)](https://drive.google.com/file/d/1IKBnFMSH0R0Ce281O8lOPa-8Ixe6VLv8/view?usp=drive_link)
+
+### 6. Train the model (if not already trained)
 
 If you do not have the pre-trained model (`newsaved_model.h5`), you can train the model by running the training script. Make sure you have your training dataset ready.
 
-### 6. Run the face mask detection script
+### 7. Run the face mask detection script
 
 To run the real-time face mask detection using your webcam:
 
